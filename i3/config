@@ -202,7 +202,7 @@ for_window [class="steam_app_1238860"] floating enable
 #Makes GTA5 Playable
 for_window [class="steam_app_271590"] floating enable
 
-#Makes Shadow of CHernobyl playable
+#Makes Shadow of Chernobyl playable
 for_window [class="steam_app_4500"] floating enable
 # Activates smart borders (always)
 smart_borders on
@@ -214,7 +214,7 @@ gaps outer 5
 bindsym $mod+t exec thunar
 bindsym $mod+j exec vivaldi
 bindsym $mod+k exec pavucontrol
-
+bindsym $mod+m exec spotify
 # class                 border  backgr. text    indicator child_border
 client.focused          #FF0B5C #FF0B5C #ffffff #2e9ef4   #285577
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
