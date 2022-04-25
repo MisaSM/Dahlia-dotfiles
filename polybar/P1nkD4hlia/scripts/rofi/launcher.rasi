@@ -77,7 +77,7 @@ listview {
 }
 
 mainbox {
-    background-color:               @al;
+    background-color:               @bar;
 	border:							0px;
     border-radius:                  0px;
 	border-color:					@ac;

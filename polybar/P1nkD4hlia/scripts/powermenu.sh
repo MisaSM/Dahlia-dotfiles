@@ -5,7 +5,7 @@
 ## Github  : @adi1090x
 ## Twitter : @adi1090x
 
-dir="~/.config/polybar/docky/scripts/rofi"
+dir="~/.config/polybar/P1nkD4hlia/scripts/rofi"
 uptime=$(uptime -p | sed -e 's/up //g')
 
 rofi_command="rofi -theme $dir/powermenu.rasi"
@@ -58,7 +58,7 @@ case $chosen in
         ;;
     $lock)
 		if [[ -f /usr/bin/i3lock ]]; then
-			i3lock
+		        i3lock -i ~/Documents/lockscreen.png
 		elif [[ -f /usr/bin/betterlockscreen ]]; then
 			betterlockscreen -l
 		fi

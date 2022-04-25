@@ -7,4 +7,5 @@
   bar:  #FFFFFFFF;
   fg:   #FFFFFFFF;
   ac:   #d81b60FF;
+  te:   #FFFF0B5C;
 }
