@@ -1,0 +1,2 @@
+#!bin/bash
+exec  i3lock -B 3 --no-modkey-text -k --indicator --radius 50 --ring-width 8 --ring-color=ffffff --keyhl-color=ff0b5cff --time-color=ffffff --date-font=MesloLGSDZ --date-color=ffffff --time-align=0 --date-align=0 --time-pos="683:300" --date-pos="683:320" --ind-pos="683:400" --time-size=40 --time-font=MesloLGSDZ --verif-size=10 --verif-font=MesloLGSDZ   --verif-color=ffffff --ringver-color=ff0b5cff --insidever-color=141414ff --insidewrong-color=ffffff --ringwrong-color=ff0b36ff --wrong-color=ff0b36ff --wrong-font=MesloLGSDZ --wrong-size=10 &

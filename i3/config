@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font: MesloLGS-Regular 15
+font: meslo 15
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -28,8 +28,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
+exec --no-startup-id xss-lock --transfer-sleep-lock -- bash ~/.config/polybar/P1nkD4hlia/lock.sh --nofork
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
@@ -204,6 +203,7 @@ for_window [class="steam_app_271590"] floating enable
 
 #Makes Shadow of Chernobyl playable
 for_window [class="steam_app_4500"] floating enable
+
 # Activates smart borders (always)
 smart_borders on
 smart_gaps on
@@ -212,9 +212,10 @@ gaps outer 5
 
 #Custom shortcuts/keybinds
 bindsym $mod+t exec thunar
-bindsym $mod+j exec vivaldi
+bindsym $mod+j exec firefox
 bindsym $mod+k exec pavucontrol
 bindsym $mod+m exec spotify
+bindsym $mod exec bash ~/.config/polybar/P1nkD4hlia/scripts/launcher.sh
 # class                 border  backgr. text    indicator child_border
 client.focused          #FF0B5C #FF0B5C #ffffff #2e9ef4   #285577
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
